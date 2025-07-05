@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Snowboards</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>All products</h1>
+  </header>
+
+  <div class="controls">
+    <div id="productCount">0 Products</div>
+    <select id="sortSelect">
+      <option value="">Sort By</option>
+      <option value="asc">Price: Low to High</option>
+      <option value="desc">Price: High to Low</option>
+    </select>
+  </div>
+
+  <main id="productContainer" class="product-grid"></main>
+
+  <script src="script.js"></script>
+</body>
+</html>
